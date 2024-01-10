@@ -1,0 +1,32 @@
+.list-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgba(0,0,0, 0.05) 1px solid ;
+}
+
+
+.create { 
+    border:  1.5px solid rgb(108, 115, 148);
+    color: rgb(108, 115, 148);
+    text-transform: uppercase;
+}
+.create:hover {
+    background-color: rgb(131, 138, 172);
+}
+.create:active { 
+    background-color: (108, 115, 148);
+    color: rgb(255,255,255);
+}
+
+
+.signout { 
+    border:  1.5px solid rgb(255, 175, 163);
+    color: rgb(234,234,234);
+    background-color: rgb(255,175,163) !important ;
+}
+
+.signout:hover { 
+    border:  1.5px solid rgb(175,94,94);
+    background-color: rgb(175,94,94);
+}
