@@ -19,6 +19,8 @@ const Modal = ({mode, setShowModal, task, getData}: ModalProps) => {
 
   // const mode  = 'create'
   const [cookies, setCookie, removeCookie] = useCookies()
+  console.log(setCookie, removeCookie)
+
   const editMode = ((mode === 'edit') ? true : false)
 
   const [data, setData] = useState({

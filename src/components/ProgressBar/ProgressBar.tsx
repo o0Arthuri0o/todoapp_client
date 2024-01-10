@@ -1,4 +1,3 @@
-import React from 'react'
 import './ProgressBar.scss'
 // rgb(141, 181, 145)
 // rgb(255, 175, 163);

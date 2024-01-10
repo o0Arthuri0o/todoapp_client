@@ -5,6 +5,8 @@ import { useCookies } from 'react-cookie'
 const Auth = () => {
 
   const [cookies, setCookie, removeCookie] = useCookies()
+  console.log(cookies, removeCookie)
+
   const [error, setError] = useState(null)
   const [isLogin, setIsLogin] = useState(true)
   const [email, setEmail] = useState('')

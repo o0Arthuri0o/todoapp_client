@@ -19,6 +19,7 @@ function App() {
 
   const [tasks, setTasks] = useState<Task[] | null>(null)
   const [cookies, setCookie, removeCookie] = useCookies()
+  console.log(setCookie, removeCookie)
 
   const authToken = cookies.AuthToken
   const userEmail = cookies.Email
